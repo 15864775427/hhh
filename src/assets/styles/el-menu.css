@@ -1,0 +1,30 @@
+.el-menu-item.is-active {
+  box-shadow: inset 4px 0px 0 0 #fff;
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.el-menu {
+  background-color: #276ce3;
+  color: #fff;
+  border: none;
+}
+.el-menu-item {
+  color: #fff;
+}
+.el-submenu__title {
+  color: #fff;
+}
+.el-submenu__title i {
+  color: #fff;
+}
+.el-menu-item:focus,
+.el-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff ;
+}
+.el-submenu__title:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.el-submenu .el-menu-item{
+  min-width: 176px;
+}
